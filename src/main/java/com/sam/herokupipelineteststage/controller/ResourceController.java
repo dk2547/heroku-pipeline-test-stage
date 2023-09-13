@@ -10,5 +10,6 @@ public class ResourceController {
     String hello(){
         return "server is up";
 
+
     }
 }
