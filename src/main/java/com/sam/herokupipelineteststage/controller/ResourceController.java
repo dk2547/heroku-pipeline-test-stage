@@ -9,5 +9,6 @@ public class ResourceController {
     @GetMapping("/hello")
     String hello(){
         return "server is up";
+
     }
 }
