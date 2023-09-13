@@ -11,4 +11,9 @@ public class ResourceController {
         return "server is up";
 
     }
+    @GetMapping("/employee")
+    String getEmployees(){
+        return "Employees";
+
+    }
 }
